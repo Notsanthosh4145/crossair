@@ -51,7 +51,7 @@ function formatCardNumber(v) {
 // BACKEND CONNECTION
 // ---------------------------------------------------------------------------
 // Point this at wherever `python manage.py runserver` is running.
-const API = "https://crossair-back.onrender.com/api";
+const API = process.env.REACT_APP_API_URL || "https://crossair-back.onrender.com/api";
 
 function getTokens() {
   return {
