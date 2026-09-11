@@ -51,7 +51,7 @@ function formatCardNumber(v) {
 // BACKEND CONNECTION
 // ---------------------------------------------------------------------------
 // Point this at wherever `python manage.py runserver` is running.
-const API = import.meta.env.VITE_API_URL || "https://your-backend-service.onrender.com/api";
+const API = "https://crossair-back.onrender.com/api";
 
 function getTokens() {
   return {
