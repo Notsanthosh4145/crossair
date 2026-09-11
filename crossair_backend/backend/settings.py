@@ -66,8 +66,7 @@ MIDDLEWARE = [
 # The Vite dev server's default origin. Add more origins here if your
 # frontend runs somewhere else (e.g. a different port).
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    "https://your-frontend-project.vercel.app",
 ]
 
 REST_FRAMEWORK = {
