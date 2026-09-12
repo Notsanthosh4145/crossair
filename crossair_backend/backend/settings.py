@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-d&010p1ym7+_=qt_u_y1$=k+b2jy73$lzm&%($$=6jrfssy=an
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://crossair-back.onrender.com']
 
 
 # Application definition
